@@ -7,7 +7,6 @@ export default Ember.Component.extend({
       this.set('editQuestion', true);
     },
     saveChanges(question) {
-      console.log(question);
       this.set('editQuestion', false);
       question.save();
     },

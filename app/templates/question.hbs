@@ -2,7 +2,7 @@
 {{new-answer saveAnswer2="saveAnswer3" question=model}}
 <ul>
   {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer}}
+    {{answer-tile answer=answer deleteAnswer="deleteAnswer"}}
   {{/each}}
 </ul>
 
