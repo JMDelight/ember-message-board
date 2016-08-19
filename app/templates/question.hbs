@@ -1,5 +1,7 @@
 {{question-tile question=model}}
-
+{{log model}}
 <ul>
-  {{answer-tile answers=model.answers}}
+  {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
 </ul>
