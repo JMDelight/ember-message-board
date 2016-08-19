@@ -1,12 +1,14 @@
 {
-  "quesions" : {
+  "questions" : {
     "q1" : {
       "body" : "How do I dance?",
       "note" : "Can U help me>",
       "author" : "Jack Flash",
       "answers" : {
         "a1" : true,
-        "a4" : true
+        "a4" : true,
+        "a8" : true,
+        "a10" : true
       }
     },
     "q2" : {
@@ -25,7 +27,8 @@
       "author" : "Jack Napier",
       "answers" : {
         "a5" : true,
-        "a6" : true
+        "a6" : true,
+        "a9" : true
       }
     }
   },
@@ -64,6 +67,21 @@
       "body" : "I love this movie!!!",
       "author" : "Bob",
       "question" : "q2"
+    },
+    "a8" : {
+      "body" : "Quit jumping around.",
+      "author" : "Angry Sam!",
+      "question" : "q1"
+    },
+    "a9" : {
+      "body" : "Is this from a movie?",
+      "author" : "Bob",
+      "question" : "q3"
+    },
+    "a10" : {
+      "body" : "I still haven't seen this movie!!!",
+      "author" : "Bob",
+      "question" : "q1"
     }
   }
 }

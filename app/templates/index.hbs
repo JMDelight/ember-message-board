@@ -1,1 +1,5 @@
-{{outlet}}
+<h1>FIRST</h1>
+<h1>{{model.length}}</h1>
+{{#each model as |question|}}
+  <h2>{{#link-to 'question' question.id}}{{question.body}}{{/link-to}} | {{question.author}}</h2>
+{{/each}}
