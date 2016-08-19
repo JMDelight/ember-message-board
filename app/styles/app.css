@@ -1,7 +1,45 @@
+.my-nav-bar {
+  background-color: #222;
+  border: #222;
+
+}
+
 .nav-title {
   font-size: 50px;
 }
 
 .nav-link {
   padding-top: 15px;
+}
+
+.answer {
+  padding-top: 15px;
+}
+
+.answer > li {
+  padding-bottom: 5px;
+}
+
+body {
+  background-color: #2D2D2D;
+  color: #CECECE;
+}
+button {
+  background-color: #3E3E3E;
+  color: #BDBDBD;
+}
+
+input {
+  background-color: #444;
+  border: 2px solid #151515;
+  border-radius: 4px;
+}
+input:focus {
+  border: 3px solid  #000;
+  outline-color: #333;
+  outline-width: thin;
+}
+button:focus {
+  border: 2px solid #B1B1B1;
+  outline:none;
 }

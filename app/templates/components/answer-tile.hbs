@@ -1,1 +1,5 @@
-<li>{{answer.body}} | {{answer.author}} | {{edit-answer deleteAnswer="deleteAnswer" answer=answer}}</li>
+<div class="answer">
+  <li>Answer: {{answer.body}}</li>
+  <p>By {{answer.author}}</p>
+  {{edit-answer deleteAnswer="deleteAnswer" answer=answer}}
+</div>
