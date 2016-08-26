@@ -5,6 +5,10 @@ export default Ember.Component.extend({
     deleteAnswer(answer) {
       this.sendAction("deleteAnswer", answer);
     },
+    saveRating(params) {
+      console.log("step two");
 
+      this.sendAction('saveRating', params);
+    }
   }
 });

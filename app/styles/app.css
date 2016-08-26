@@ -83,3 +83,7 @@ input:focus {
   outline-color: #333;
   outline-width: thin;
 }
+
+input:-webkit-autofill {
+  background-color: #eee;
+}

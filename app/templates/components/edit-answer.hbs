@@ -1,15 +1,17 @@
-{{#if editAnswer}}
-  <h1>Edit Answer</h1>
-  <div>
-    <form>
-      <div class="form-group">
-        <label for="body">Answer</label>
-        {{input value=answer.body id="edit-body"}}
-      </div>
-      <button {{action 'saveChanges' answer}}>Save Changes</button>
-    </form>
-    <button {{action 'deleteAnswer' answer}}>Delete this Answer</button>
-  </div>
-{{else}}
-  <button {{action 'editAnswerFormShow'}}>Edit Answer</button>
+{{#if loggedInAs}}
+  {{#if editAnswer}}
+    <h1>Edit Answer</h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="body">Answer</label>
+          {{input value=answer.body id="edit-body"}}
+        </div>
+        <button {{action 'saveChanges' answer}}>Save Changes</button>
+      </form>
+      <button {{action 'deleteAnswer' answer}}>Delete this Answer</button>
+    </div>
+  {{else}}
+    <button {{action 'editAnswerFormShow'}}>Edit Answer</button>
+  {{/if}}
 {{/if}}

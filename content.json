@@ -2,96 +2,128 @@
   "answers" : {
     "a11" : {
       "user" : "u2",
+      "ratings" : {
+      },
       "body" : "Never rub another man's rhubarb.",
       "question" : "q3",
       "timestamp" : 1472225160093
     },
     "a12" : {
       "user" : "u3",
+      "ratings" : {
+      },
       "body" : "This is what is wrong with our country. Why is there a question like this on this once great question board. What is our country coming to when poeple are looking at the culture of lesser places this is an outrage and I will be writing my congressmen to let them know the travesties that are being committed on this once great board. This will need to be handled in a swift manner if the future and our way of life is to be preserved...",
       "question" : "q2",
       "timestamp" : 1472225146655
     },
     "a13" : {
       "user" : "u4",
+      "ratings" : {
+      },
       "body" : "Bark bark bark!!!",
       "question" : "q5",
       "timestamp" : 1472225111385
     },
     "a14" : {
       "user" : "u5",
+      "ratings" : {
+      },
       "body" : "I am not a teapot!",
       "question" : "q3",
       "timestamp" : 1472225162990
     },
     "a15" : {
       "user" : "u6",
+      "ratings" : {
+      },
       "body" : "blueberries",
       "question" : "q4",
       "timestamp" : 1472225126464
     },
     "a16" : {
       "user" : "u7",
+      "ratings" : {
+      },
       "body" : "Don't",
       "question" : "q5",
       "timestamp" : 1472225113409
     },
     "a1" : {
       "user" : "u6",
+      "ratings" : {
+      },
       "body" : "Poorly",
       "question" : "q1",
       "timestamp" : 1472225131848
     },
     "a10" : {
       "user" : "u7",
+      "ratings" : {
+      },
       "body" : "I still haven't seen this movie!!!",
       "question" : "q1",
       "timestamp" : 1472225133927
     },
     "a2" : {
       "user" : "u8",
+      "ratings" : {
+      },
       "body" : "24 miles per hour",
       "question" : "q2",
       "timestamp" : 1472225148286
     },
     "a3" : {
       "user" : "u9",
+      "ratings" : {
+      },
       "body" : "11 meters per second",
       "question" : "q2",
       "timestamp" : 1472225151118
     },
     "a4" : {
       "user" : "u2",
+      "ratings" : {
+      },
       "body" : "U dance gud! Ignore those h8ers and do ur thing! ",
       "question" : "q1",
       "timestamp" : 1472225136151
     },
     "a5" : {
       "user" : "u3",
+      "ratings" : {
+      },
       "body" : "How dare you suggest such a thing!",
       "question" : "q3",
       "timestamp" : 1472225165653
     },
     "a6" : {
       "user" : "u5",
+      "ratings" : {
+      },
       "body" : "???",
       "question" : "q3",
       "timestamp" : 1472225167677
     },
     "a7" : {
       "user" : "u7",
+      "ratings" : {
+      },
       "body" : "I love this movie!!!",
       "question" : "q2",
       "timestamp" : 1472225152926
     },
     "a8" : {
       "user" : "u6",
+      "ratings" : {
+      },
       "body" : "Quit jumping around.",
       "question" : "q1",
       "timestamp" : 1472225138295
     },
     "a9" : {
       "user" : "u7",
+      "ratings" : {
+      },
       "body" : "Is this from a movie?",
       "question" : "q3",
       "timestamp" : 1472225169973

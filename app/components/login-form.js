@@ -4,11 +4,11 @@ export default Ember.Component.extend({
   currentUser: Ember.inject.service(),
   actions: {
     login(users) {
-      var userName = this.get('userName');
+      var loginName = this.get('loginName');
       var password = this.get('password');
       var tempUser = null;
       users.forEach(function(user) {
-        if(user.get('userName') === userName) {
+        if(user.get('userName') === loginName) {
           tempUser = user;
         }
       });
@@ -21,7 +21,7 @@ export default Ember.Component.extend({
           alert("Password is incorrect");
         }
       } else {
-        alert("UserName doesn;t exist.");
+        alert("UserName doesn't exist.");
       }
     }
   }

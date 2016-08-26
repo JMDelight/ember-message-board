@@ -25,6 +25,17 @@ export default Ember.Route.extend({
     },
     deleteAnswer(answer) {
       answer.destroyRecord();
+    },
+    saveRating(params) {
+      console.log("step three");
+
+      var newRating = this.store.createRecord('rating', params);
+      var answer = params.answer;
+      answer.get('ratings').addObject(newRating);
+      newRating.save().then(function() {
+        return answer.save();
+      });
+      console.log(JSON.stringify(answer));
     }
   }
 });

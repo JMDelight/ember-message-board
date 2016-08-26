@@ -1,19 +1,21 @@
-{{#if editQuestion}}
-  <h1>Edit Question</h1>
-  <div>
-    <form>
-      <div class="form-group">
-        <label for="body">Question</label>
-        {{input value=question.body id="edit-body"}}
-      </div>
-      <div class="form-group">
-        <label for="note">Additional Notes:</label>
-        {{input value=question.note id="edit-note"}}
-      </div>
-      <button {{action 'saveChanges' question}}>Save Changes</button>
-    </form>
-    <button {{action 'deleteQuestion' question}}>Delete this Question</button>
-  </div>
-{{else}}
-  <button {{action 'editQuestionFormShow'}}>Edit Question</button>
+{{#if loggedInAsQ}}
+  {{#if editQuestion}}
+    <h1>Edit Question</h1>
+    <div>
+      <form>
+        <div class="form-group">
+          <label for="body">Question</label>
+          {{input value=question.body id="edit-body"}}
+        </div>
+        <div class="form-group">
+          <label for="note">Additional Notes:</label>
+          {{input value=question.note id="edit-note"}}
+        </div>
+        <button {{action 'saveChanges' question}}>Save Changes</button>
+      </form>
+      <button {{action 'deleteQuestion' question}}>Delete this Question</button>
+    </div>
+  {{else}}
+    <button {{action 'editQuestionFormShow'}}>Edit Question</button>
+  {{/if}}
 {{/if}}

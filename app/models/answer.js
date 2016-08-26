@@ -11,14 +11,13 @@ export default DS.Model.extend({
     var runningTotal = 0;
     var numberOfRatings = 0;
     this.get('ratings').forEach(function(rating) {
-      runningTotal += rating.get('rating');
-      console.log(runningTotal);
+      runningTotal += rating.get('value');
       numberOfRatings ++;
     });
     if (numberOfRatings < 4) {
       return "There are not enough ratings to rank this answer.";
     } else {
-      return (runningTotal / numberOfRatings).toString() + "%";
+      return (Math.floor(runningTotal / numberOfRatings * 100)).toString() + "% positive with " + numberOfRatings.toString() + " ratings";
     }
   })
 });
