@@ -1,6 +1,10 @@
 <div class="answer">
   <li>Answer: {{answer.body}}</li>
-  {{display-username user=answer.user}}
+  <p>
+    by {{answer.user.userName}}
+    {{log answer.user.userName}}
+  </p>
+
   <p>{{answer.averageRating}}</p>
   {{edit-answer deleteAnswer="deleteAnswer" answer=answer}}
 </div>

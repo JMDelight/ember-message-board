@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  currentUser: Ember.inject.service(),
   addNewQuestion: false,
   actions: {
     questionFormShow() {
@@ -8,9 +9,10 @@ export default Ember.Component.extend({
     },
     save() {
       var params = {
-        author: this.get('author'),
+        user: this.get('currentUser.loggedInUser'),
         body: this.get('body'),
-        note: this.get('note')
+        note: this.get('note'),
+        timestamp: Date.now()
       };
       this.set('addNewQuestion', false);
       this.sendAction('saveQuestion', params);

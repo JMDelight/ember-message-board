@@ -13,10 +13,10 @@ export default Ember.Component.extend({
         }
       });
       if(tempUser != null) {
-        console.log("UserName Exists");
         if(password === tempUser.get('password')) {
           this.get('currentUser').setUser(tempUser);
           alert("logged in successfully");
+          alert(this.get('currentUser.loggedInUser.userName'));
         } else {
           alert("Password is incorrect");
         }

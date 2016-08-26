@@ -1,7 +1,5 @@
 <h1>Current Questions:</h1>
-{{#each model as |question|}}
-  <h2>{{#link-to 'question' question.id}}{{question.body}}{{/link-to}}  |  Asked By {{question.author}}</h2>
-{{/each}}
+{{question-bare questions = model}}
 <div class="new-question">
   {{new-question saveQuestion='saveQuestion'}}
 </div>
