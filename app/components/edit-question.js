@@ -8,6 +8,7 @@ export default Ember.Component.extend({
     },
     saveChanges(question) {
       this.set('editQuestion', false);
+      question.set('timestamp', Date.now());
       question.save();
     },
     deleteQuestion(question) {

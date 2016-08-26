@@ -1,87 +1,311 @@
 {
+  "answers" : {
+    "a11" : {
+      "user" : "u2",
+      "body" : "Never rub another man's rhubarb.",
+      "question" : "q3",
+      "timestamp" : 1472225160093
+    },
+    "a12" : {
+      "user" : "u3",
+      "body" : "This is what is wrong with our country. Why is there a question like this on this once great question board. What is our country coming to when poeple are looking at the culture of lesser places this is an outrage and I will be writing my congressmen to let them know the travesties that are being committed on this once great board. This will need to be handled in a swift manner if the future and our way of life is to be preserved...",
+      "question" : "q2",
+      "timestamp" : 1472225146655
+    },
+    "a13" : {
+      "user" : "u4",
+      "body" : "Bark bark bark!!!",
+      "question" : "q5",
+      "timestamp" : 1472225111385
+    },
+    "a14" : {
+      "user" : "u5",
+      "body" : "I am not a teapot!",
+      "question" : "q3",
+      "timestamp" : 1472225162990
+    },
+    "a15" : {
+      "user" : "u6",
+      "body" : "blueberries",
+      "question" : "q4",
+      "timestamp" : 1472225126464
+    },
+    "a16" : {
+      "user" : "u7",
+      "body" : "Don't",
+      "question" : "q5",
+      "timestamp" : 1472225113409
+    },
+    "a1" : {
+      "user" : "u6",
+      "body" : "Poorly",
+      "question" : "q1",
+      "timestamp" : 1472225131848
+    },
+    "a10" : {
+      "user" : "u7",
+      "body" : "I still haven't seen this movie!!!",
+      "question" : "q1",
+      "timestamp" : 1472225133927
+    },
+    "a2" : {
+      "user" : "u8",
+      "body" : "24 miles per hour",
+      "question" : "q2",
+      "timestamp" : 1472225148286
+    },
+    "a3" : {
+      "user" : "u9",
+      "body" : "11 meters per second",
+      "question" : "q2",
+      "timestamp" : 1472225151118
+    },
+    "a4" : {
+      "user" : "u2",
+      "body" : "U dance gud! Ignore those h8ers and do ur thing! ",
+      "question" : "q1",
+      "timestamp" : 1472225136151
+    },
+    "a5" : {
+      "user" : "u3",
+      "body" : "How dare you suggest such a thing!",
+      "question" : "q3",
+      "timestamp" : 1472225165653
+    },
+    "a6" : {
+      "user" : "u5",
+      "body" : "???",
+      "question" : "q3",
+      "timestamp" : 1472225167677
+    },
+    "a7" : {
+      "user" : "u7",
+      "body" : "I love this movie!!!",
+      "question" : "q2",
+      "timestamp" : 1472225152926
+    },
+    "a8" : {
+      "user" : "u6",
+      "body" : "Quit jumping around.",
+      "question" : "q1",
+      "timestamp" : 1472225138295
+    },
+    "a9" : {
+      "user" : "u7",
+      "body" : "Is this from a movie?",
+      "question" : "q3",
+      "timestamp" : 1472225169973
+    }
+  },
   "questions" : {
+    "q5" : {
+      "answers" : {
+        "a13" : true,
+        "a16" : true
+      },
+      "user" : "u1",
+      "body" : "How to doge?!????",
+      "note" : "Do you doge?????",
+      "timestamp" : 1472225108705
+    },
+    "q4" : {
+      "answers" : {
+        "a15" : true
+      },
+      "user" : "u10",
+      "body" : "Why is the sky blue?",
+      "note" : "science please!!",
+      "timestamp" : 1472225124928
+    },
     "q1" : {
-      "body" : "How do I dance?",
-      "note" : "Can U help me?",
-      "author" : "Jack Flash",
       "answers" : {
         "a1" : true,
+        "a10" : true,
         "a4" : true,
-        "a8" : true,
-        "a10" : true
-      }
+        "a8" : true
+      },
+      "user" : "u8",
+      "body" : "How do I dance the tango?",
+      "note" : "Can U help me?",
+      "timestamp" : 1472225140511
     },
     "q2" : {
-      "body" : "What is the airspeed velocity of an unladen swallow?",
-      "note" : "European",
-      "author" : "Tim",
       "answers" : {
+        "a12" : true,
         "a2" : true,
         "a3" : true,
         "a7" : true
-      }
+      },
+      "user" : "u7",
+      "body" : "What is the airspeed velocity of an unladen swallow?",
+      "note" : "European",
+      "timestamp" : 1472225154926
     },
     "q3" : {
-      "body" : "Have you ever danced with the devil in the pale moonlight?",
-      "note" : "morality???",
-      "author" : "Jack Napier",
       "answers" : {
+        "a11" : true,
+        "a14" : true,
         "a5" : true,
         "a6" : true,
         "a9" : true
-      }
+      },
+      "user" : "u11",
+      "body" : "Have you ever danced with the devil in the pale moonlight?",
+      "note" : "morality???",
+      "timestamp" : 1472225172237
     }
   },
-  "answers" : {
-    "a1" : {
-      "body" : "Poorly",
-      "author" : "Mean Kareem",
-      "question" : "q1"
+  "users" : {
+    "u1" : {
+      "userName" : "KittyMeow2013xx547",
+      "password" : "password",
+      "questions" : {
+        "q5" : true
+      },
+      "answers" : {
+
+      },
+      "ratings" : {
+
+      }
     },
-    "a2" : {
-      "body" : "24 miles per hour",
-      "author" : "Mr. Dan",
-      "question" : "q2"
+    "u2" : {
+      "userName" : "MovieBuff123",
+      "password" : "password",
+      "questions" : {
+
+      },
+      "answers" : {
+        "a11" : true,
+        "a4" : true
+      },
+      "ratings" : {
+
+      }
     },
-    "a3" : {
-      "body" : "11 meters per second",
-      "author" : "Dance Master 5000",
-      "question" : "q2"
+    "u3" : {
+      "userName" : "Angry Man",
+      "password" : "password",
+      "questions" : {
+
+      },
+      "answers" : {
+        "a12" : true,
+        "a5" : true
+      },
+      "ratings" : {
+
+      }
     },
-    "a4" : {
-      "body" : "U dance gud! Ignore those h8ers and do ur thing! ",
-      "author" : "abv48",
-      "question" : "q1"
+    "u4" : {
+      "userName" : "Dog",
+      "password" : "password",
+      "questions" : {
+
+      },
+      "answers" : {
+        "a13" : true
+      },
+      "ratings" : {
+
+      }
     },
-    "a5" : {
-      "body" : "How dare you suggest such a thing!",
-      "author" : "Mr. Sim",
-      "question" : "q3"
+    "u5" : {
+      "userName" : "Chip",
+      "password" : "password",
+      "questions" : {
+
+      },
+      "answers" : {
+        "a6" : true,
+        "a14" : true
+      },
+      "ratings" : {
+
+      }
     },
-    "a6" : {
-      "body" : "???",
-      "author" : "confused and bemused",
-      "question" : "q3"
+    "u6" : {
+      "userName" : "antisciencedude",
+      "password" : "password",
+      "questions" : {
+
+      },
+      "answers" : {
+        "a15" : true,
+        "a1" : true,
+        "a8" : true
+      },
+      "ratings" : {
+
+      }
     },
-    "a7" : {
-      "body" : "I love this movie!!!",
-      "author" : "Bob",
-      "question" : "q2"
+    "u7" : {
+      "userName" : "Bob",
+      "password" : "password",
+      "questions" : {
+        "q2" : true
+      },
+      "answers" : {
+        "a10" : true,
+        "a16" : true,
+        "a7" : true,
+        "a9" : true
+
+      },
+      "ratings" : {
+
+      }
     },
-    "a8" : {
-      "body" : "Quit jumping around.",
-      "author" : "Angry Sam!",
-      "question" : "q1"
+    "u8" : {
+      "userName" : "Mr. Dan",
+      "password" : "password",
+      "questions" : {
+        "q1" : true
+      },
+      "answers" : {
+        "a2" : true
+      },
+      "ratings" : {
+
+      }
     },
-    "a9" : {
-      "body" : "Is this from a movie?",
-      "author" : "Bob",
-      "question" : "q3"
+    "u9" : {
+      "userName" : "Dance Master 5000",
+      "password" : "password",
+      "questions" : {
+
+      },
+      "answers" : {
+        "a3" : true
+      },
+      "ratings" : {
+
+      }
     },
-    "a10" : {
-      "body" : "I still haven't seen this movie!!!",
-      "author" : "Bob",
-      "question" : "q1"
+    "u11" : {
+      "userName" : "Jack Napier",
+      "password" : "password",
+      "questions" : {
+        "q3" : true
+      },
+      "answers" : {
+      },
+      "ratings" : {
+
+      }
+    },
+    "u10" : {
+      "userName" : "sciencedude",
+      "password" : "password",
+      "questions" : {
+        "q4" : true
+      },
+      "answers" : {
+
+      },
+      "ratings" : {
+
+      }
     }
   }
 }

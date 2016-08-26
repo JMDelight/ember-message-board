@@ -1,5 +1,6 @@
 <div class="answer">
   <li>Answer: {{answer.body}}</li>
-  <p>By {{answer.author}}</p>
+  {{display-username user=answer.user}}
+  <p>{{answer.averageRating}}</p>
   {{edit-answer deleteAnswer="deleteAnswer" answer=answer}}
 </div>
