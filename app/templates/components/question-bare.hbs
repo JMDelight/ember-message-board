@@ -1,5 +1,4 @@
 {{#each questions as |question|}}
   <h2>{{#link-to 'question' question.id}}{{question.body}}{{/link-to}}  |  Asked By {{question.user.userName}}</h2>
   {{log question}}
-  
 {{/each}}

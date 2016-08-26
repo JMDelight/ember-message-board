@@ -2,7 +2,9 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model(params) {
-    return this.store.findRecord('question', params.question_id);
+    return Ember.RSVP.hash({
+      question: this.store.findRecord('question', params.question_id)
+    });
   },
   actions: {
     saveAnswer3(params) {
@@ -28,7 +30,6 @@ export default Ember.Route.extend({
     },
     saveRating(params) {
       console.log("step three");
-
       var newRating = this.store.createRecord('rating', params);
       var answer = params.answer;
       answer.get('ratings').addObject(newRating);

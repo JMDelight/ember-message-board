@@ -1,1 +1,18 @@
-{{yield}}
+{{#if addNewUser}}
+  <h1>New User</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="userNameNew">UserName</label>
+        {{input value=userName id="userNameNew"}}
+      </div>
+      <div class="form-group">
+        <label for="passwordNew">Password</label>
+        {{input value=password id="passwordNew"}}
+      </div>
+      <button {{action 'saveUser'}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'userFormShow'}}>New User</button>
+{{/if}}

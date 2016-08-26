@@ -1,10 +1,8 @@
 <div class="answer">
   <li>Answer: {{answer.body}}</li>
   <p>
-    by {{answer.user.userName}}
-    {{log answer.user.userName}}
+    by {{answer.user.userName}} At: {{date-display answer.timestamp}}
   </p>
-
   <p>{{answer.averageRating}}</p>
   {{new-rating answer=answer saveRating="saveRating"}}
   {{edit-answer deleteAnswer="deleteAnswer" answer=answer }}

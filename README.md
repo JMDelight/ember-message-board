@@ -40,7 +40,7 @@ _If you have any questions or concerns, please email me at thefencingflutist@gma
 
 ## Technologies Used
 
-_Javascript, NPM, Bower, bootstrap, firebase, Ember_
+_Javascript, NPM, Bower, bootstrap, firebase, Ember, Moment.js_
 
 ### License
 

@@ -1,8 +1,6 @@
-{{question-tile question=model}}
-{{new-answer saveAnswer2="saveAnswer3" question=model}}
+{{question-tile question=model.question}}
+{{new-answer saveAnswer2="saveAnswer3" question=model.question}}
 <ul>
-  {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer deleteAnswer="deleteAnswer" saveRating="saveRating"}}
-  {{/each}}
+  {{answer-container answers=model.question.answers deleteAnswer="deleteAnswer" saveRating="saveRating"}}
 </ul>
 {{edit-question deleteQuestion="deleteQuestion" question=model}}

@@ -1,11 +1,9 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  editQuestion: false,
   currentUser: Ember.inject.service(),
+  editQuestion: false,
   loggedInAsQ: Ember.computed('currentUser.loggedInUser', 'this.question.user', function() {
-    console.log(this.get('currentUser.loggedInUser.userName'));
-    console.log(this.get('question.user.userName'), "Two");
     return (this.get('currentUser.loggedInUser.userName') === this.get('question.user.userName'));
   }),
   actions: {

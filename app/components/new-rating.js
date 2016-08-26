@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     like() {
       var params = {
         answer: this.get('answer'),
-        value: true,
+        value: 1,
         user: this.get('currentUser.loggedInUser'),
       };
       console.log("step one");
@@ -15,12 +15,11 @@ export default Ember.Component.extend({
     dislike() {
       var params = {
         answer: this.get('answer'),
-        value: false,
+        value: 0,
         user: this.get('currentUser.loggedInUser'),
       };
       console.log("step one");
       this.sendAction('saveRating', params);
     },
-
   }
 });

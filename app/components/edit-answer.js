@@ -4,8 +4,6 @@ export default Ember.Component.extend({
   currentUser: Ember.inject.service(),
   editAnswer: false,
   loggedInAs: Ember.computed('currentUser.loggedInUser', 'this.answer.user', function() {
-    console.log(this.get('currentUser.loggedInUser.userName', "1"));
-    console.log(this.get('answer.user.userName'), "2");
     return (this.get('currentUser.loggedInUser.userName') === this.get('answer.user.userName'));
   }),
   actions: {

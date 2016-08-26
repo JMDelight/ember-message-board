@@ -16,7 +16,7 @@ export default Ember.Component.extend({
         if(password === tempUser.get('password')) {
           this.get('currentUser').setUser(tempUser);
           alert("logged in successfully");
-          alert(this.get('currentUser.loggedInUser.userName'));
+          this.sendAction('login');
         } else {
           alert("Password is incorrect");
         }
