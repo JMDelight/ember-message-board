@@ -14,7 +14,7 @@ export default Ember.Route.extend({
       newAnswer.save().then(function() {
         return question.save();
       });
-      this.transitionTo('question', params.question);
+      this.transitionTo('question', params.question.get(id));
     },
     deleteQuestion(question) {
       var answer_deletions = question.get('answers').map(function(answer) {
